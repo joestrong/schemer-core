@@ -1,0 +1,21 @@
+{
+  "name": "schemer",
+  "version": "0.1.0",
+  "homepage": "https://github.com/joestrong/schemer-core",
+  "authors": [
+    "Joe Strong <joestrong@gmail.com>"
+  ],
+  "description": "Schemer Game Framework core files",
+  "keywords": [
+    "webgl",
+    "game",
+    "framework"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
