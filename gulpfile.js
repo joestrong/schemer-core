@@ -6,10 +6,10 @@ gulp.task('default', ['build', 'watch']);
 
 gulp.task('build', function(){
     gulp.src('./source/*.js')
-        .pipe(concat('gameengine.js'))
+        .pipe(concat('schemer.js'))
         .pipe(gulp.dest('./dist/'));
-    gulp.src('./dist/gameengine.js')
-        .pipe(uglify('gameengine.min.js'))
+    gulp.src('./dist/schemer.js')
+        .pipe(uglify('schemer.min.js'))
         .pipe(gulp.dest('./dist/'));
 });
 
