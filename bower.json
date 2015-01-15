@@ -2,6 +2,7 @@
   "name": "schemer",
   "version": "0.1.0",
   "homepage": "https://github.com/joestrong/schemer-core",
+  "main": "dist/schemer.min.js",
   "authors": [
     "Joe Strong <joestrong@gmail.com>"
   ],
@@ -13,9 +14,13 @@
   ],
   "license": "MIT",
   "ignore": [
+    "source",
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+    ".gitignore",
+    "gulpfile.js",
+    "package.json"
   ]
 }
